@@ -1,0 +1,18 @@
+/*  */
+
+body {
+  background-image: url(/img/ronaldo_0.jpg);
+  background-size: 200px;
+
+  /* lặp lại hình ảnh theo chiều ngang  */
+  /* background-repeat: repeat-x; */
+
+  /* Lặp lại hình ảnh theo chiều dọc  */
+  /* background-repeat: repeat-y; */
+
+  /* Hiện thị hình ảnh 1 lần */
+  background-repeat: no-repeat;
+
+  /* Thuộc tính background-position sử dụng để chỉ định vị trí của hình nền*/
+  background-position: right top;
+}

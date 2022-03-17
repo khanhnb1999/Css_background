@@ -1,0 +1,23 @@
+/* --background-image chỉ định 1 hình ảnh làm nền cho 1 phần tử
+   --Theo mặc định thì hình ảnh được lặp lại để nó bao phủ toàn bộ phần tử
+ */
+
+body {
+  background-image: url(/img/ronaldo_0.jpg);
+  background-size: 100%;
+
+  /* Tránh lặp lại ảnh */
+  background-repeat: no-repeat;
+}
+h1 {
+  color: white;
+  padding: 30px;
+  font-size: 50px;
+}
+
+/* Hình nền cũng có thể đặt cho các phần tử cụ thể */
+
+/* h2 {
+  background-image: url(/img/conten5.png);
+  color: white;
+} */

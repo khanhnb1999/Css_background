@@ -1,0 +1,20 @@
+/* Thuộc tính backgroun-color chỉ định màu nền cho 1 phần tử */
+h1 {
+  background-color: red;
+  color: rgb(34, 5, 163);
+  padding: 20px;
+}
+
+/* Thuộc tính opacity chỉ định độ mờ trong suốt của 1 phần tử */
+.test1 {
+  background-color: red;
+  color: white;
+  padding: 20px;
+  opacity: 0.2;
+}
+
+/* Giảm độ mờ cho 1 phần tử nhưng không làm mờ màu văn bản */
+.test2 {
+  background-color: rgb(255, 0, 0, 0.2);
+  padding: 20px;
+}

@@ -1,0 +1,12 @@
+body {
+  background-image: url(/img/ronaldo_0.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 200px;
+
+  /* Căn chình hình ảnh theo trên và phải */
+  background-position: top right;
+
+  /* Căn chình hình ảnh theo trên và phải cách lề trên và lề dưới  */
+  background-position: top 20px right 20px;
+}
